@@ -1,0 +1,26 @@
+CREATE TABLE movie_stars (id INT, name TEXT, birth YEAR, death YEAR, deathplace TEXT, walk_of_fame_stars INT, picture_link TEXT, cali_death INTEGER, PRIMARY KEY(id))
+INSERT INTO movie_stars VALUES (1, "Humphrey Bogart", 1899, 1957, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/8/84/Humphrey_Bogart_1940.jpg', 1);
+INSERT INTO movie_stars VALUES (2, "Cary Grant", 1904, 1986, 'Davenport', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Grant%2C_Cary_%28Suspicion%29_01_Crisco_edit.jpg/695px-Grant%2C_Cary_%28Suspicion%29_01_Crisco_edit.jpg', 0);
+INSERT INTO movie_stars VALUES (3, "Jimmy Stewart", 1908, 1997, 'Beverly Hills', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Annex_-_Stewart%2C_James_%28Call_Northside_777%29_01.jpg/800px-Annex_-_Stewart%2C_James_%28Call_Northside_777%29_01.jpg', 1);
+INSERT INTO movie_stars VALUES (4, "Marlon Brando", 1924, 2004, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Marlon_Brando_in_The_Men.jpg/800px-Marlon_Brando_in_The_Men.jpg', 1);
+INSERT INTO movie_stars VALUES (5, "Fred Astaire", 1899, 1987, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/6/69/Astaire%2C_Fred_-_Never_Get_Rich.jpg', 1);
+INSERT INTO movie_stars VALUES (6, "Henry Fonda", 1905, 1982, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Henry_Fonda%2C_1940.jpg/800px-Henry_Fonda%2C_1940.jpg', 1);
+INSERT INTO movie_stars VALUES (7, "Clark Gable", 1901, 1960, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/3/3a/Clark_Gable_-_publicity.JPG', 1);
+INSERT INTO movie_stars VALUES (8, "James Cagney", 1899, 1986, 'NY', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/James_cagney_promo_photo.jpg/800px-James_cagney_promo_photo.jpg', 0);
+INSERT INTO movie_stars VALUES (9, "Spencer Tracy", 1900, 1967, 'Beverly Hills', 1, 'https://upload.wikimedia.org/wikipedia/commons/8/8b/Spencer_Tracy.jpg', 1);
+INSERT INTO movie_stars VALUES (10, "Charlie Chaplin", 1889, 1977, 'Manoir de Ban', 1, 'https://upload.wikimedia.org/wikipedia/commons/3/34/Charlie_Chaplin_portrait.jpg', 0);
+INSERT INTO movie_stars VALUES (11, "Gary Cooper", 1901, 1961, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/7/7d/Gary_Cooper_1936.jpg', 1);
+INSERT INTO movie_stars VALUES (12, "Gregory Peck", 1916, 2003, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/2/28/Gregory_Peck_1948.jpg', 1);
+INSERT INTO movie_stars VALUES (13, "John Wayne", 1907, 1979, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/a/a0/John_Wayne_1940.jpg', 1);
+INSERT INTO movie_stars VALUES (14, "Laurence Olivier", 1907, 1989, 'Steyning', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Laurence_Olivier_-_Rebecca.jpg/800px-Laurence_Olivier_-_Rebecca.jpg', 0);
+INSERT INTO movie_stars VALUES (15, "Gene Kelly", 1912, 1996, 'Beverly Hills', 1, 'https://upload.wikimedia.org/wikipedia/commons/4/40/Gene_kelly.jpg', 1);
+INSERT INTO movie_stars VALUES (16, "Orson Welles", 1915, 1985, 'LA', 2, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Orson_Welles_1937.jpg/800px-Orson_Welles_1937.jpg', 1);
+INSERT INTO movie_stars VALUES (17, "Kirk Douglas", 1916, 2020, 'Beverly Hills', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Kirk_douglas_photo_signed.JPG/800px-Kirk_douglas_photo_signed.JPG', 1);
+INSERT INTO movie_stars VALUES (18, "James Dean", 1931, 1955, 'Cholame', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/James_Dean_-_publicity_-_early.JPG/800px-James_Dean_-_publicity_-_early.JPG', 1);
+INSERT INTO movie_stars VALUES (19, "Burt Lancaster", 1913, 1994, 'Century City', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Burt_Lancaster_-_publicity_1947.JPG/800px-Burt_Lancaster_-_publicity_1947.JPG', 1);
+INSERT INTO movie_stars VALUES (20, "Marx Brothers", 1887, 1977, 'Palm Springs', 2, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Marx_Brothers_1931.jpg/800px-Marx_Brothers_1931.jpg', 1);
+INSERT INTO movie_stars VALUES (21, "Buster Keaton", 1895, 1966, 'LA', 2, 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Busterkeaton_edit.jpg/800px-Busterkeaton_edit.jpg', 1);
+INSERT INTO movie_stars VALUES (22, "Sidney Poitier", 1927, 2022, 'Beverly Hills', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Sidney_Poitier_1968.jpg/800px-Sidney_Poitier_1968.jpg', 1);
+INSERT INTO movie_stars VALUES (23, "Robert Mitchum", 1917, 1997, 'Santa Barbara', 1, 'https://upload.wikimedia.org/wikipedia/commons/1/1c/Robert_Mitchum_1949_%28no_signature%29.jpg', 1);
+INSERT INTO movie_stars VALUES (24, "Edward G. Robinson", 1893, 1973, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Edward_G._Robinson_1948.jpg/800px-Edward_G._Robinson_1948.jpg', 1);
+INSERT INTO movie_stars VALUES (25, "William Holden", 1918, 1981, 'Santa Monica', 1, 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Holden-portrait.jpg/800px-Holden-portrait.jpg', 1);

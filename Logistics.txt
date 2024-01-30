@@ -1,0 +1,31 @@
+React Flask Web Application
+Hollywood Stars
+From post silent era, golden age
+
+removed from client (why?):
+src/
+App.test.js
+index.css
+logo.svg
+import './index.css'; (in index.js)
+
+python -m venv venv
+venv/Scripts/activate
+pip install flask
+pip install flask_sqlalchemy
+python server.py
+deactivate
+
+npx create-react-app app-name
+package.json (add "proxy": "http://localhost:5000",)
+cd app-name
+npm install react-router-dom --save
+npm start
+
+
+create-react-app and external files will not publish under one singular branch, preventing me from having my desired file structure:
+WEBSITE
+- client
+    - infohub (create-react-app)
+- server
+    - venv and server.py

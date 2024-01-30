@@ -1,0 +1,9 @@
+CREATE TABLE director (id INT PRIMARY KEY, name TEXT, movie TEXT)
+INSERT INTO director VALUES (1, "Alfred Hitchcock", "North By Northwest");
+INSERT INTO director VALUES (2, "Alfred Hitchcock", "Rear Window");
+INSERT INTO director VALUES (3, "Alfred Hitchcock", "Rope");
+INSERT INTO director VALUES (4, "Howard Hawks", "Gentlemen Prefer Blondes");
+INSERT INTO director VALUES (5, "Howard Hawks", "Rio Bravo");
+INSERT INTO director VALUES (6, "Sergio Leone", "For A Few Dollars More");
+INSERT INTO director VALUES (7, "Sergio Leone", "The Good, The Bad, and The Ugly");
+INSERT INTO director VALUES (8, "FFC", "The Godfather");
