@@ -1,0 +1,33 @@
+.movie-star-list {
+    text-align: center;
+}
+
+.movie-stars-row {
+    /* float: left; */
+    padding: 10px;
+    margin-left: 10px;
+}
+
+.movie-stars-row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.movie-stars-col {
+    float: left;
+    /* padding: 10px;
+    margin-left: 10px; */
+}
+
+.movie-stars-left {
+    text-align: center;
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+.movie-stars-right {
+    text-align: center;
+    width: 50%;
+    /* background-color:aquamarine; */
+}

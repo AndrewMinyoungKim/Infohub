@@ -13,7 +13,7 @@ for entry in f:
     c.execute(entry)
 f.close()
 
-f = open("movie_stars_db_setup.txt", "r")
+f = open("movie_stars_db_setup_m.txt", "r")
 for entry in f:
     c.execute(entry)
 f.close()
@@ -52,11 +52,12 @@ def members():
 
 # dynamic URL with int variable: <int:star_id>, <sex>
 @app.route("/movie_stars/<int:star_id>/<sex>", methods=['GET', 'POST'])
-def movie_stars(star_id=1, sex="male"):
-    if(sex == "male"):
-        query = f"SELECT * FROM movie_stars WHERE id={star_id}"
-    else:
-        query = f"SELECT * FROM movie_stars_female WHERE id={star_id}"
+def movie_stars(star_id: int=1, sex: str="male"):
+    db = "movie_stars_male"
+    if(sex == "female"):
+        db = "movie_stars_female"
+    
+    query = f"SELECT * FROM {db} WHERE id={star_id}"
 
     c.execute(query)
     result = c.fetchall()
@@ -65,7 +66,7 @@ def movie_stars(star_id=1, sex="male"):
 
 @app.route("/movie_stars_list")
 def movie_stars_list():
-    c.execute("SELECT * FROM movie_stars")
+    c.execute("SELECT * FROM movie_stars_male")
     result_m = list(c.fetchall())
     c.execute("SELECT * FROM movie_stars_female")
     result_f = list(c.fetchall())

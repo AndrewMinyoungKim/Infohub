@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import  { Link } from "react-router-dom";
+import './MovieStarList.css';
+import './Fonts.css';
 
 const MovieStarList = () => {
   const [allMovieStars, setallMovieStars] = useState([{}])
@@ -16,15 +18,14 @@ const MovieStarList = () => {
   }, []) // empty array at the end: to only run once
 
   return (
-    <div>
-        MovieStarList
-        <div style={{ backgroundColor: '#4287f5' }}>
-      <h2 className='ccc'>
+    <div style={{ backgroundColor: '#4287f5' }}>
+      MovieStarList
+      <h2 className='header-styling honk-font'>
         Category: Movie Stars
       </h2>
 
-      <div className='row'>
-        <div className='col left'>
+      <div className='movie-stars-row sixtyfour-font'>
+        <div className='movie-stars-col movie-stars-left'>
             Female Stars
             {allMovieStars.female?.map((item, i) => (
               <p key={i}>
@@ -32,7 +33,7 @@ const MovieStarList = () => {
               </p>
             ))}
         </div>
-        <div className='col right'>
+        <div className='movie-stars-col movie-stars-right'>
             Male Stars
             {allMovieStars.male?.map((item, i) => (
               <p key={i}>
@@ -41,7 +42,6 @@ const MovieStarList = () => {
             ))}
         </div>
       </div>
-    </div>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './MovieStar.css';
+import './Fonts.css';
 import { useParams, useLocation } from 'react-router-dom';
 import MovieStarList from './MovieStarList';
 
@@ -24,22 +25,22 @@ const MovieStar = (props) => {
   const defaultPfp = "https://static.miraheze.org/greatcharacterswiki/thumb/c/c8/00705036-6E5E-4CAB-B89D-D80E3A2E5F62.png/640px-00705036-6E5E-4CAB-B89D-D80E3A2E5F62.png"
 
   return (
-    <div style={{ backgroundColor: '#4287f5' }}>
-      <h2 className='ccc'>
+    <div style={{ backgroundColor: '#4287f5' }} className='inter-font'>
+      <h2 className='header-styling sixtyfour-font'>
         Category: Movie Stars
       </h2>
 
-      <div className='row'>
-        <div className='col left'>
+      <div className='profile-row'>
+        <div className='profile-col profile-left'>
           <img 
             src={typeof movieStar.info === 'undefined' ? (defaultPfp) : (movieStar.info[0][6])}
             alt="new"
             className='pfp'
           />
         </div>
-        <div className='col right'>
-          <p className='ccc'>Name: {typeof movieStar.info === 'undefined' ? (<p>Loading...</p>) : (movieStar.info[0][1])}</p>
-          <div className='ccc'>
+        <div className='profile-col profile-right'>
+          <p className='header-styling'>Name: {typeof movieStar.info === 'undefined' ? (<p>Loading...</p>) : (movieStar.info[0][1])}</p>
+          <div className='header-styling'>
             {movieStar.info?.map((item, idx) => (<p key={idx}>Birth: {item[2]} - Death: {item[3]}</p>))}
             {movieStar.info?.map((item, idx) => (<p key={idx}>Decades of Prominence: {item[2]}</p>))}
             {movieStar.info?.map((item, idx) => (<p key={idx}>Death Location: {item[4]}</p>))}
@@ -55,7 +56,7 @@ const MovieStar = (props) => {
         </div>
       </div>
 
-      <div>
+      <div className='abel-regular'>
         <h2>Well Known Films of Their's</h2>
         <p>5 Biggest Movies and their years</p>
         <img 
@@ -81,7 +82,7 @@ const MovieStar = (props) => {
       </div>
 
       <p>Description</p>
-      <p>Entire Filmography</p>
+      <p className='abel-regular'>Entire Filmography</p>
 
       <MovieStarList />
     </div>

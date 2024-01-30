@@ -1,14 +1,16 @@
 import  { Link } from "react-router-dom";
+import './Navbar.css';
+import './Fonts.css';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
+    <nav className="navbar bungee-spice-regular">
         <h1>Hollywoodddd, not historical, not dictators</h1>
         <div>Navbar</div>
         <div className="links">
-            <Link to="/">Home</Link>
-            <Link to="/MovieStarList">Movie Stars: Holly Stars Woods</Link>
-            <Link to="/Dummy">Dummy</Link>
+            <div><Link to="/">Home</Link></div>
+            <div><Link to="/MovieStarList">Movie Stars: Holly Stars Woods</Link></div>
+            <div><Link to="/Dummy">Dummy</Link></div>
         </div>
     </nav>
   )

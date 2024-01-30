@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './Fonts.css';
 
 const Home = () => {
   const [data, setData] = useState([{}])
@@ -17,7 +18,7 @@ const Home = () => {
 
 
   return (
-    <div className="home">
+    <div className="home sixtyfour-font">
         James Dean Martin
         {/* <Link to="/">James Dean Martin</Link> */}
         {(typeof data.members === 'undefined') ? (

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import './Fonts.css';
 
 const Dummy = () => {
   const [data, setData] = useState([{}])

@@ -1,8 +1,11 @@
-.ccc {
+.header-styling {
     background-color: #282c34;
     color: white;
     padding: 40px;
-    font-family: Arial;
+    /* font-family: Arial; */
+    /* font-family: futuraptbook; */
+    /* font-family: futura-pt; */
+    /* font-weight: 400; */
     text-align: center;
 }
 
@@ -21,33 +24,33 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-/* .row {
+/* .profile-row {
     display: flex;
 } */
 
-.row:after {
+.profile-row:after {
     content: "";
     display: table;
     clear: both;
 }
 
-.col {
+.profile-col {
     /* flex: 50%; */
     float: left;
     padding: 10px;
     margin-left: 10px;
 }
 
-.left {
+.profile-left {
     width: 25%;
 }
 
-.left img {
+.profile-left img {
     width: 100%;
     height: auto;
 }
 
-.right {
+.profile-right {
     width: 70%;
 }
 
