@@ -1,0 +1,26 @@
+CREATE TABLE movie_stars_female (id INT, name TEXT, birth YEAR, death YEAR, deathplace TEXT, walk_of_fame_stars INT, picture_link TEXT, cali_death INTEGER, PRIMARY KEY(id))
+INSERT INTO movie_stars_female VALUES (1, "Katharine Hepburn", 1907, 2003, 'Connecticut', 1, 'https://upload.wikimedia.org/wikipedia/commons/8/89/Katharine_Hepburn_publicity_photograph.jpg', 0);
+INSERT INTO movie_stars_female VALUES (2, "Bette Davis", 1908, 1989, 'Neuilly-sur-Seine', 2, 'https://upload.wikimedia.org/wikipedia/commons/a/ac/Jezebel-1938-Bette-Davis-cropped.jpg', 0);
+INSERT INTO movie_stars_female VALUES (3, "Audrey Hepburn", 1929, 1993, 'Tolochenaz', 1, 'https://upload.wikimedia.org/wikipedia/commons/9/98/Audrey_Hepburn_1959.jpg', 0);
+INSERT INTO movie_stars_female VALUES (4, "Ingrid Bergman", 1915, 1982, 'London', 1, 'https://upload.wikimedia.org/wikipedia/commons/c/c0/Ingrid_Bergman%2C_Gaslight_1944.jpg', 0);
+INSERT INTO movie_stars_female VALUES (5, "Greta Garbo", 1905, 1990, 'NY', 1, 'https://upload.wikimedia.org/wikipedia/commons/5/57/Garbo_in_Inspiration.jpg', 0);
+INSERT INTO movie_stars_female VALUES (6, "Marilyn Monroe", 1926, 1962, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/3/3b/Monroe_1953_publicity.jpg', 1);
+INSERT INTO movie_stars_female VALUES (7, "Elizabeth Taylor", 1932, 2011, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/9/96/Studio_publicity_Elizabeth_Taylor.jpg', 1);
+INSERT INTO movie_stars_female VALUES (8, "Judy Garland", 1922, 1969, 'London', 2, 'https://upload.wikimedia.org/wikipedia/commons/4/46/Judy_Garland_1943_publicity_photo.jpg', 0);
+INSERT INTO movie_stars_female VALUES (9, "Marlene Dietrich", 1901, 1992, 'Paris', 1, 'https://upload.wikimedia.org/wikipedia/commons/2/2d/Marlene_Dietrich_in_No_Highway_%281951%29_%28Cropped%29.png', 0);
+INSERT INTO movie_stars_female VALUES (10, "Joan Crawford", 1906, 1977, 'NY', 1, 'https://upload.wikimedia.org/wikipedia/commons/3/32/Joan_Crawford_-_1936_-_Hurrell.JPG', 0);
+INSERT INTO movie_stars_female VALUES (11, "Barbara Stanwyck", 1907, 1990, 'Santa Monica', 1, 'https://upload.wikimedia.org/wikipedia/commons/5/5c/BarbaraS39.jpg', 1);
+INSERT INTO movie_stars_female VALUES (12, "Claudette Colbert", 1903, 1996, 'Speightstown', 1, 'https://upload.wikimedia.org/wikipedia/commons/a/a1/Claudette_Colbert_1931.jpg', 0);
+INSERT INTO movie_stars_female VALUES (13, "Grace Kelly", 1929, 1982, 'Monaco Hospital', 1, 'https://upload.wikimedia.org/wikipedia/commons/3/3e/Grace_Kelly_1955.jpg', 0);
+INSERT INTO movie_stars_female VALUES (14, "Ginger Rogers", 1911, 1995, 'Rancho Mirage', 1, 'https://upload.wikimedia.org/wikipedia/commons/2/2b/Ginger_Rogers_-_Tender_Comrade.jpg', 1);
+INSERT INTO movie_stars_female VALUES (15, "Mae West", 1893, 1980, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Mae_West_-_1936.jpg', 1);
+INSERT INTO movie_stars_female VALUES (16, "Vivien Leigh", 1913, 1967, 'London', 1, 'https://upload.wikimedia.org/wikipedia/commons/d/dc/Vivien_Leigh_-_Anna_Karenina.jpg', 0);
+INSERT INTO movie_stars_female VALUES (17, "Lillian Gish", 1893, 1993, 'NY', 1, 'https://upload.wikimedia.org/wikipedia/commons/0/00/Lillian_Gish-edit1.jpg', 0);
+INSERT INTO movie_stars_female VALUES (18, "Shirley Temple", 1928, 2014, 'Woodside', 1, 'https://upload.wikimedia.org/wikipedia/commons/c/ce/Shirley_Temple_1949.jpg', 1);
+INSERT INTO movie_stars_female VALUES (19, "Rita Hayworth", 1918, 1987, 'NY', 1, 'https://upload.wikimedia.org/wikipedia/commons/3/33/Rita_Hayworth-publicity.JPG', 0);
+INSERT INTO movie_stars_female VALUES (20, "Lauren Bacall", 1924, 2014, 'NY', 1, 'https://upload.wikimedia.org/wikipedia/commons/f/ff/Lauren_Bacall_1945_%28cropped%29.jpg', 0);
+INSERT INTO movie_stars_female VALUES (21, "Sophia Loren", 1934, 0, '', 1, 'https://upload.wikimedia.org/wikipedia/commons/a/af/Sophia_Loren_-_1959.jpg', 0);
+INSERT INTO movie_stars_female VALUES (22, "Jean Harlow", 1911, 1937, 'LA', 1, 'https://upload.wikimedia.org/wikipedia/commons/f/f6/Harlow-publicity.jpg', 1);
+INSERT INTO movie_stars_female VALUES (23, "Carole Lombard", 1908, 1942, 'Mount Potosi', 1, 'https://upload.wikimedia.org/wikipedia/commons/c/c5/Carole_Lombard_-_Paramount.JPG', 0);
+INSERT INTO movie_stars_female VALUES (24, "Mary Pickford", 1892, 1979, 'Santa Monica', 1, 'https://upload.wikimedia.org/wikipedia/commons/8/88/Mary_Pickford_cph.3c17995u.jpg', 1);
+INSERT INTO movie_stars_female VALUES (25, "Ava Gardner", 1922, 1990, 'London', 1, 'https://upload.wikimedia.org/wikipedia/commons/2/29/Ava_Gardner_Show_Boat_1951.jpg', 0);

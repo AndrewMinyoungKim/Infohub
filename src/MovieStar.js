@@ -1,20 +1,17 @@
 import React, { useState, useEffect } from 'react';
 import './MovieStar.css';
-import { useParams } from 'react-router-dom';
+import { useParams, useLocation } from 'react-router-dom';
 import MovieStarList from './MovieStarList';
 
 const MovieStar = (props) => {
-  const star = useParams();
-  console.log("hi");
-  console.log(star);
-  console.log(star.id);
-  console.log("hifff");
+  // const star = useParams();
+  const location = useLocation()
+  const { id, sex } = location.state
     
   const [movieStar, setMovieStar] = useState([{}])
 
-  // fetch data from /movie_stars, convert response to json, and set data to json data
   useEffect(() => {
-    fetch(`/movie_stars/${star.id}`).then(
+    fetch(`/movie_stars/${id}/${sex}`).then(
       res => res.json()
     ).then(
       movieStar => {
@@ -22,23 +19,7 @@ const MovieStar = (props) => {
         console.log(movieStar)
       }
     )
-  }, []) // empty array at the end: to only run once
-
-  // useEffect(() => {
-  //   fetch(`/movie_stars`, {
-  //     method: 'POST',
-  //     body: JSON.stringify({
-  //       content: star.id
-  //     })
-  //   }).then(
-  //     res => res.json()
-  //   ).then(
-  //     movieStar => {
-  //       setMovieStar(movieStar)
-  //       console.log(movieStar)
-  //     }
-  //   )
-  // }, []) // empty array at the end: to only run once
+  }, [id, sex]) // run if contents inside [] change
 
   const defaultPfp = "https://static.miraheze.org/greatcharacterswiki/thumb/c/c8/00705036-6E5E-4CAB-B89D-D80E3A2E5F62.png/640px-00705036-6E5E-4CAB-B89D-D80E3A2E5F62.png"
 

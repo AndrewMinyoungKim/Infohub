@@ -14,7 +14,7 @@ function App() {
             <div className='content'>
               <Routes>
                 <Route exact path="/" element={<Home/>}/>
-                <Route path="/MovieStar/:id" element={<MovieStar/>}/>
+                <Route path="/MovieStar/:id/:sex" element={<MovieStar/>}/>
                 <Route path="/MovieStarList" element={<MovieStarList/>}/>
                 <Route path="/Dummy" element={<Dummy/>}/>
               </Routes>
